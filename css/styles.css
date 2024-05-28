@@ -299,6 +299,13 @@ width: calc((100% - 2 * 24px) / 3);
   border-top: none;
 }
 
+.portfolio .list-item-name {
+  text-align: left;
+}
+.portfolio .list-item-function {
+  text-align: left;
+}
+
 /* Footer */
 .footer-section {
     background: var(--NAVY-BLUE, #2E2F42);
