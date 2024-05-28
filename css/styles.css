@@ -98,6 +98,8 @@ color: #404bbf;
 
 .addr-ul {
   display: flex;
+  gap: 40px;
+  align-content: flex-end;
 }
 
 .addr-link {
