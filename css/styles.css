@@ -150,7 +150,15 @@ margin-bottom: 48px;
     letter-spacing: 0.04em;
 background: var(--IRIS, #4D5AE5);
 cursor: pointer;
+border: none;
+border-radius: 4px;
+padding: 16px 32px;
+display: block;
+margin: 0 auto;
+min-width: 169px;
 }
+
+
 .solutions-button:hover,
 .solutions-button:focus {
 background: var(--OCEAN, #404BBF);
@@ -158,18 +166,18 @@ background: var(--OCEAN, #404BBF);
 
 /* Advanteges */
 .adv-title {
-    color: var(--NAVY-BLUE, #2E2F42);
-font-size: 20px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.4px;
+  color: var(--NAVY-BLUE, #2E2F42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
 }
 .adv-text {
-    color: var(--SLATE, #434455);
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.32px;
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 
 /* Our Team*/
@@ -178,7 +186,7 @@ letter-spacing: 0.32px;
 }
 
 .our-team-title {
-    color: var(--NAVY-BLUE, #2E2F42);
+  color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
 font-size: 36px;
 font-weight: 700;
