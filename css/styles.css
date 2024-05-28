@@ -61,11 +61,17 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
   }
 
   .header-logo-studio {
     color: #2E2F42;
   }
+
+.navigation-ul {
+  display: flex;
+  gap: 40px;
+}
 
  .nav-list {
 color: #2E2F42;
@@ -73,6 +79,8 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+padding: 24 0;
+display: block;
 }
 
 .nav-list:hover,
