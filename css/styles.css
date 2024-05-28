@@ -94,12 +94,12 @@ color: #404bbf;
 /* Header-Address */
 .addr {
     font-style: normal;
+    margin-left: auto;
 }
 
 .addr-ul {
   display: flex;
   gap: 40px;
-  align-content: flex-end;
 }
 
 .addr-link {
