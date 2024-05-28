@@ -48,10 +48,6 @@ a {
     justify-content: space-between;
     align-items: center;
   }
-  .navigation {
-    display: flex;
-    align-items: center;
-  }
 
   .header-logo {
     color: var(--IRIS, #4D5AE5);
@@ -66,6 +62,13 @@ a {
 
   .header-logo-studio {
     color: #2E2F42;
+  }
+
+  /* Header-Navigation */
+
+  .navigation {
+    display: flex;
+    align-items: center;
   }
 
 .navigation-ul {
@@ -88,8 +91,13 @@ display: block;
 color: #404bbf;
 }
 
+/* Header-Address */
 .addr {
     font-style: normal;
+}
+
+.addr-ul {
+  display: flex;
 }
 
 .addr-link {
