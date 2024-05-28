@@ -265,15 +265,40 @@ padding-bottom: 32px;
 }
 
 /* Our Portfolio*/
+
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+
 .portfolio-title {
 color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
-letter-spacing: 0.72px;
+letter-spacing: 0.02em;
 text-transform: capitalize;
+margin-bottom: 72px;
 }
+
+.portfolio-ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+
+.portfolio .pic-descr {
+width: calc((100% - 2 * 24px) / 3);
+}
+
+.portfolio-item {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 /* Footer */
 .footer-section {
     background: var(--NAVY-BLUE, #2E2F42);
