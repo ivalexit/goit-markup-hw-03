@@ -212,7 +212,8 @@ gap: 24px;
 /* Our Team*/
 .our-team {
     background: var(--CLOUD, #F4F4FD);
-    padding: 120 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .our-team-title {
@@ -230,6 +231,7 @@ margin-bottom: 72px;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  justify-content: center;
 }
 
 .list-item-name {
@@ -244,7 +246,6 @@ margin-bottom: 8px;
 }
 
 .list-item-function {
-    color: var(--SLATE, #434455);
 text-align: center;
 font-size: 16px;
 font-weight: 400;
@@ -253,7 +254,8 @@ letter-spacing: 0.02em;
 }
 
 .team-member {
-padding: 32px 0;
+padding-top: 32px;
+padding-bottom: 32px;
 }
 
 .pic-descr {
