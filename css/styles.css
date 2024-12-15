@@ -186,7 +186,7 @@ header .container {
 }
 
 .advantages-item {
-  flex-basis: calc((100% - 72px) / 4); /* Віднято три проміжки (24px * 3) */
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .advantages-text {
