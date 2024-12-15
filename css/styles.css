@@ -77,6 +77,7 @@ header .container {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: block;
 }
 
 .nav-link:hover,
@@ -88,12 +89,13 @@ header .container {
   font-style: normal;
 }
 
-.header-contacts ul {
+.header-contacts-list {
 display: flex;
 gap: 40px;
 list-style: none;
 margin: 0;
 padding: 0;
+align-content: flex-end;
 }
 
 .contact-link {
