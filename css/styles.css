@@ -269,7 +269,6 @@ header .container {
   flex-basis: calc((100% - 2 * 24px) / 3);
   text-align: center;
   background-color: #FFF;
-  border-top: none; 
   border: 1px solid #e7e9fc;
 }
 
