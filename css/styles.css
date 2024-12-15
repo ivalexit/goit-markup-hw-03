@@ -1,11 +1,13 @@
-
-/* General Resets */
-h1, h2, h3, h4, h5, h6, p {
+/* Global Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
   margin: 0;
 }
 
 ul, ol {
-  list-style-type: none;
+  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -17,49 +19,41 @@ a {
 img {
   display: block;
   max-width: 100%;
-  height: auto;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #FFF;
-  margin: 0;
-}
-
+/* Container */
 .container {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 /* Header */
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 20px 0;
 }
 
-.header-nav {
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 24px 0;
 }
 
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  text-transform: uppercase;
   color: #4d5ae5;
+  text-transform: uppercase;
 }
 
 .header-logo-studio {
   color: #2e2f42;
 }
 
-.header-nav-list {
+.nav-list {
   display: flex;
   gap: 40px;
 }
@@ -68,61 +62,40 @@ body {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf;
-}
-
-.header-contacts {
-  display: flex;
-  gap: 40px;
-}
-
-.contact-link {
-  font-size: 16px;
-  color: #434455;
-}
-
-.contact-link:hover,
-.contact-link:focus {
+.nav-link:hover {
   color: #404bbf;
 }
 
 /* Hero */
 .hero {
   background-color: #2e2f42;
-  text-align: center;
   padding: 188px 0;
+  text-align: center;
 }
 
 .hero-title {
+  color: #ffffff;
   font-size: 56px;
   font-weight: 700;
-  color: #fff;
+  line-height: 1.07;
   margin-bottom: 48px;
-  max-width: 496px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero-btn {
-  background: #4d5ae5;
-  color: #fff;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  padding: 16px 32px;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5;
-  padding: 10px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
-  background: #404bbf;
+.hero-btn:hover {
+  background-color: #404bbf;
 }
 
 /* Advantages */
@@ -132,19 +105,18 @@ body {
 
 .advantages-list {
   display: flex;
-  gap: 24px;
-  flex-wrap: wrap;
   justify-content: space-between;
+  gap: 24px;
 }
 
 .advantages-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
+  text-align: center;
 }
 
 .advantages-title {
   font-size: 20px;
   font-weight: 500;
-  color: #2e2f42;
   margin-bottom: 8px;
 }
 
@@ -238,10 +210,10 @@ body {
 
 /* Footer */
 .footer {
-  background: #2e2f42;
-  color: #f4f4fd;
+  background-color: #2e2f42;
   text-align: center;
   padding: 100px 0;
+  color: #f4f4fd;
 }
 
 .footer-logo {
@@ -249,8 +221,8 @@ body {
   font-size: 18px;
   font-weight: 700;
   color: #4d5ae5;
+  text-transform: uppercase;
   margin-bottom: 16px;
-  display: block;
 }
 
 .footer-logo-studio {
@@ -259,8 +231,7 @@ body {
 
 .footer-text {
   font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
   max-width: 264px;
   margin: 0 auto;
+  color: #f4f4fd;
 }
