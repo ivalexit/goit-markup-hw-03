@@ -132,20 +132,19 @@ header .container {
 }
 
 .solutions-button {
-  color: #FFF;
-  font-family: "Roboto", sans-serif;
+  display: block;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
-  background: #4D5AE5;
-  border: none;
-  border-radius: 4px;
+  background: #4d5ae5;
   cursor: pointer;
-  padding: 16px 32px;
-  margin-top: 48px;
-  display: block;
+  margin: 0 auto;
   min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  border: none;
 }
 
 .solutions-button:hover,
