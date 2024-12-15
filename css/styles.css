@@ -87,6 +87,11 @@ header .container {
   font-style: normal;
 }
 
+.header-contacts ul {
+  display: flex;
+  gap: 40px;
+}
+
 .contact-link {
   color: #434455;
   font-size: 16px;
