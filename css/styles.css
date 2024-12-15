@@ -252,7 +252,7 @@ header .container {
 }
 
 .portfolio-container {
-  border: 1px solid #e7e9fc;
+  border: 5px solid red;
 }
 
 .portfolio-title {
